@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define range(i,n) for(size_t i = 0;i<n;i++)
-#define rpt(i,a,b) for(size_t i = a;i<b;i++)
-#define all(v) begin(v),end(v)
 typedef long long lg;
 typedef vector<int> iv;
 typedef vector<lg> lv;
+#define range(i,n) for(lg i = 0;i<n;i++)
+#define rpt(i,a,b) for(lg i = a;i<b;i++)
+#define all(v) begin(v),end(v)
+
 void solve();
 int main(){
   ios::sync_with_stdio(0);
